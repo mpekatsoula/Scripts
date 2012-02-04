@@ -1,5 +1,5 @@
 #!/bin/bash
-# Secure file deletion. Well almost secure ;)
+# Secure file deletion (~95% deletion rate). Well almost secure ;)
 # First rm the file you want to delete and never to be found, and
 # then run this sctipt.
 # This script takes as an argument a mounted device, and writes

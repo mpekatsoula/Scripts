@@ -1,7 +1,7 @@
 #!/bin/bash
 # Secure file deletion (~95% deletion rate). Well almost secure ;)
-# First rm the file you want to delete and never to be found, and
-# then run this sctipt.
+# First rm the file you want to delete and
+# run this sctipt.
 # This script takes as an argument a mounted device, and writes
 # zero to all of the free space. Then syncs the filesystem files
 # and removes the generated file. It is the most fast and secure way of 
